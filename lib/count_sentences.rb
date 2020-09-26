@@ -30,6 +30,6 @@ end
     sentence_array = self.split(/[.?!]/)
     return sentence_array.count
   end
+end
 
-  end
 end
