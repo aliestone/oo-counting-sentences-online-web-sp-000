@@ -28,10 +28,7 @@ end
 
   def count_sentences
     sentence_array = self.split(/[.?!]/)
-    if self.empty?
-      return "0"
-    else
-    puts sentence_array.count
+    return sentence_array.count
   end
 
   end
